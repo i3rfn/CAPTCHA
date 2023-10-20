@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAPTCHA</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container" id="cntiner">
+      <div class="not_robot">
+        <input type="checkbox" name="" id="Cbox" />
+        <p>I'm not a robot.</p>
+        <img src="./media/undraw_artificial_intelligence_re_enpp.svg" alt="" />
+      </div>
+      <div class="dis">
+        <div class="captcha">
+          <input
+            type="text"
+            placeholder="Enter the number below..."
+            id="vorodi"
+            minlength="1"
+            maxlength="10"
+            required
+          />
+          <div id="random"></div>
+          <button id="change">⟳</button>
+          <button id="sabt">Submit</button>
+          <img src="./media/undraw_calculator_re_alsc.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <p class="ds">"Designed by Erfan Qane"</p>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
